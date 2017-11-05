@@ -1,4 +1,3 @@
----
 title: PHP利用PHPExcel操作Excel文件
 id: 229
 categories:
@@ -7,12 +6,11 @@ categories:
 date: 2017-04-20 08:53:13
 tags:
 ---
-
 工具：**PHPExcel**
 
 下面是示例代码，备用。
 
-`
+~~~
 /** Error reporting */
 error_reporting(E_ALL);
 
@@ -57,4 +55,4 @@ $objWriter->save(str_replace('.php', '.xlsx', **FILE**));
 // Echo done
 echo date('H:i:s') . " Done writing file.\r\n";
 
-`
+~~~

@@ -1,4 +1,3 @@
----
 title: python进制转换
 id: 45
 categories:
@@ -6,9 +5,8 @@ categories:
 date: 2015-05-19 06:31:57
 tags:
 ---
-
 * 空间
-`
+~~~
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # 2/10/16 base trans. wrote by srcdog on 20th, April, 2009
@@ -69,6 +67,6 @@ if __name__ == '__main__':
 print bin2hex('111110')
 print hex2bin('f1')
 print dec2hex('255')
-`
+~~~
 收藏于 2011-03-09
 来自于百度空间
